@@ -9,7 +9,7 @@ pip install -r requirements.txt
 python dynamo_app.py
 ```
 
-New to docker? Yikes! Let's fix that: [https://rayanslim.com/course/docker-course](https://rayanslim.com/course/docker-course)
+New to docker? I've got you covered (highest-rated docker course online): [https://rayanslim.com/course/docker-course](https://rayanslim.com/course/docker-course)
 
 ## Resources Used
 
