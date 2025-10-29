@@ -50,7 +50,7 @@ class DynamoDBApp:
         - Includes ConditionExpression to prevent accidental overwrites
         - Accepts additional attributes via kwargs for schema flexibility
         """
-        timestamp = int(time.time())
+        timestamp = str(int(time.time()))
         
         item = {
             'userId': user_id,
@@ -331,7 +331,7 @@ def demo():
     
     print("\n=== 8. DELETE ITEM (with condition) ===")
     try:
-        app.delete_user_profile('user789', int(time.time()))
+        app.delete_user_profile('user789', str(int(time.time())))
     except ClientError:
         pass
 
