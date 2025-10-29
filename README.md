@@ -2,7 +2,7 @@
 
 ## Docker Commands Used
 
-New to docker? Yikes! I can fix that: (https://rayanslim.com/course/docker-course)[https://rayanslim.com/course/docker-course]
+New to docker? Yikes! I can fix that: [https://rayanslim.com/course/docker-course](https://rayanslim.com/course/docker-course)
 
 ```
 docker run -it --rm -v $(pwd):/app python:3.9 bash
