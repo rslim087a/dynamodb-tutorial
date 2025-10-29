@@ -1,5 +1,16 @@
 # DynamoDB Lab for the Rayan Slim Youtube Channel
 
+## Docker Commands Used
+
+New to docker? Yikes! I can fix that: (https://rayanslim.com/course/docker-course)[https://rayanslim.com/course/docker-course]
+
+```
+docker run -it --rm -v $(pwd):/app python:3.9 bash
+cd /app
+pip install -r requirements.txt
+python dynamo_app.py
+```
+
 ## Resources Used
 
 ```
