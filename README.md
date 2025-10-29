@@ -1,6 +1,6 @@
 # DynamoDB Lab for the Rayan Slim Youtube Channel
 
-## Docker Commands Used
+## Docker Command Used
 
 ```
 docker run -it --rm -v $(pwd):/app python:3.9 bash
